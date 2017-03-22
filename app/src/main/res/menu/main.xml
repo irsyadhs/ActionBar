@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Edit"
+        app:showAsAction="always"
+        android:id="@+id/mEdit"
+        android:icon="@android:drawable/ic_menu_edit" />
+    <item android:title="Hapus"
+        android:id="@+id/mHapus"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_delete" />
+    <item android:title="Tambah"
+        android:id="@+id/mTambah"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_input_add" />
+</menu>
